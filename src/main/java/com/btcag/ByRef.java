@@ -1,8 +1,10 @@
 package com.btcag;
 
 public class ByRef {
+    public static void main(String[] args) {
+        doubleValue(4);
+    }
     public static void doubleValue(int wert) {
-        wert = 3;
         System.out.println("doubleValue: " + wert);
     }
 }
